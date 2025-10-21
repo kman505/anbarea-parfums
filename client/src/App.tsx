@@ -10,6 +10,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ProductDetail from "./pages/ProductDetail";
 import ComingSoon from "./pages/ComingSoon";
+import Disclaimer from "./pages/Disclaimer";
 
 function Router() {
   return (
@@ -20,6 +21,7 @@ function Router() {
       <Route path="/contact" component={Contact} />
       <Route path="/product/:id" component={ProductDetail} />
       <Route path="/coming-soon" component={ComingSoon} />
+      <Route path="/disclaimer" component={Disclaimer} />
       <Route path="/404" component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

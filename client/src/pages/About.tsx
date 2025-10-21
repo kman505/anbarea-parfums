@@ -56,6 +56,17 @@ export default function About() {
                 </p>
               </div>
 
+              <div className="mt-12 p-6 bg-primary/5 border-l-4 border-primary rounded">
+                <h3 className="text-lg font-semibold mb-3 text-foreground">Important Legal Notice</h3>
+                <p className="text-sm leading-relaxed">
+                  Anbaréa Parfums is an independent fragrance company. We are <strong>not affiliated with, endorsed by, 
+                  or connected to</strong> any of the designer brands, perfume houses, or trademark owners mentioned on our website. 
+                  All brand names are used solely for comparison and descriptive purposes to help customers understand the scent 
+                  profile and inspiration behind our fragrances. Our products are original Anbaréa Parfums creations—not counterfeits, 
+                  copies, or imitations. <a href="/disclaimer" className="underline hover:text-foreground font-medium">Read our full legal disclaimer</a>.
+                </p>
+              </div>
+
               <div className="mt-12">
                 <h2 className="text-2xl font-bold mb-6 text-foreground">Our Values</h2>
                 <div className="grid md:grid-cols-2 gap-6">

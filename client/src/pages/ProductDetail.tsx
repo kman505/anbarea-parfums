@@ -117,6 +117,15 @@ export default function ProductDetail() {
                 <p>✓ Small-batch production</p>
                 <p>✓ Fast, direct shipping</p>
               </div>
+
+              {product.inspiredBy && (
+                <div className="text-xs text-muted-foreground pt-4 border-t italic">
+                  <p>
+                    * This fragrance is inspired by {product.inspiredBy} but is not affiliated with or endorsed by the original brand. 
+                    Anbaréa Parfums is an independent fragrance company. <a href="/disclaimer" className="underline hover:text-foreground">Learn more</a>.
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>

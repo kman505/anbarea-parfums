@@ -32,13 +32,18 @@ export default function Footer() {
           <div className="space-y-3">
             <h4 className="text-sm font-semibold">Legal</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
+              <li><a href="/disclaimer" className="hover:text-foreground transition-colors">Legal Disclaimer</a></li>
               <li><a href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a></li>
               <li><a href="/terms" className="hover:text-foreground transition-colors">Terms of Service</a></li>
             </ul>
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
+        <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground space-y-2">
+          <p className="text-xs">
+            Anbaréa Parfums is an independent fragrance company. We are not affiliated with any designer brands. 
+            All trademarks are property of their respective owners. <a href="/disclaimer" className="underline hover:text-foreground">Read full disclaimer</a>.
+          </p>
           <p>© {currentYear} Anbaréa Parfums. All rights reserved.</p>
         </div>
       </div>
