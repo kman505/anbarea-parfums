@@ -18,14 +18,19 @@ export default function About() {
             
             <div className="prose prose-lg max-w-none space-y-6 text-muted-foreground">
               <p className="text-lg leading-relaxed">
-                Anbaréa Parfums was born from a simple idea: everyone deserves to experience the magic 
-                of a signature scent, without compromise.
+                It started with a question: Why should a bottle of perfume cost more than a week's groceries?
               </p>
 
               <p className="text-lg leading-relaxed">
-                Frustrated by the sky-high prices and exclusivity of luxury fragrances, our founder set 
-                out on a mission: to recreate and reinterpret the world's most beloved perfumes, delivering 
-                them directly—no middlemen, no markups, just pure artistry in a bottle.
+                Like many fragrance enthusiasts, I fell in love with scents I couldn't afford to wear every day. 
+                I'd spray testers at department stores, watch YouTube reviews, and dream about owning a full bottle 
+                of Baccarat Rouge or Creed Aventus. But at $300+ per bottle, it felt impossible.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                Then I discovered the world of fragrance dupes and inspired perfumes. I tried dozens—some were 
+                terrible, but a few were surprisingly close to the originals. That's when it clicked: <strong className="text-foreground">what 
+                if I could create my own?</strong>
               </p>
 
               <div className="my-12 rounded-lg overflow-hidden">
@@ -37,22 +42,30 @@ export default function About() {
               </div>
 
               <p className="text-lg leading-relaxed">
-                Each bottle is a testament to the idea that scent should be personal, accessible, and 
-                unforgettable. We use only high-quality, ethically sourced ingredients, blending in small 
-                batches to ensure every fragrance captures the heart of its inspiration.
+                I started small—mixing oils in my kitchen, testing on friends, tweaking formulas until they felt 
+                just right. Some were disasters (sorry to everyone who smelled my early attempts at oud). But slowly, 
+                I learned what worked: high-quality fragrance oils, the right concentrations, and patience.
               </p>
 
               <p className="text-lg leading-relaxed">
-                Today, Anbaréa Parfums is more than a fragrance house—it's a community, a movement against 
-                overpriced luxury, and a promise that <strong className="text-foreground">your signature scent is within reach</strong>.
+                Anbaréa Parfums grew from those kitchen experiments. Today, we partner with experienced perfumers 
+                and use premium ingredients to create fragrances inspired by the scents we all love—but at prices 
+                that don't require a second mortgage.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                We're not trying to fool anyone. Our bottles don't pretend to be Chanel or Dior. We're honest about 
+                what we are: <strong className="text-foreground">affordable alternatives that let you enjoy luxury scents without the luxury price tag</strong>. 
+                Whether you're building your collection, trying a scent before investing in the original, or just 
+                want a great-smelling fragrance that doesn't break the bank—we're here for you.
               </p>
 
               <div className="mt-12 p-8 bg-accent/20 rounded-lg">
-                <h2 className="text-2xl font-bold mb-4 text-foreground">About the Name</h2>
+                <h2 className="text-2xl font-bold mb-4 text-foreground">Why "Anbaréa"?</h2>
                 <p className="text-lg leading-relaxed">
-                  The name "Anbaréa" is inspired by "amber"—the golden essence prized in perfumery—and 
-                  the elegance of French fragrance heritage. The accent on the 'é'? That's our signature 
-                  flourish, a nod to artistry, authenticity, and a bit of daring.
+                  The name comes from "amber"—one of the most beloved notes in perfumery, warm and timeless. 
+                  The French-inspired spelling with the accent (é) adds a touch of elegance. It's a reminder that 
+                  sophistication doesn't have to be expensive—it's about how something makes you feel.
                 </p>
               </div>
 
@@ -68,37 +81,51 @@ export default function About() {
               </div>
 
               <div className="mt-12">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">Our Values</h2>
+                <h2 className="text-2xl font-bold mb-6 text-foreground">What We Believe</h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="p-6 border rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2 text-foreground">Quality First</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-foreground">Fragrance for Everyone</h3>
                     <p>
-                      We never compromise on ingredients or craftsmanship. Every fragrance is meticulously 
-                      crafted to capture the essence of its inspiration.
+                      You shouldn't have to choose between smelling great and paying rent. Beautiful scents should 
+                      be accessible, not exclusive.
                     </p>
                   </div>
                   <div className="p-6 border rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2 text-foreground">Accessibility</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-foreground">Honest Quality</h3>
                     <p>
-                      Luxury shouldn't be exclusive. We believe everyone deserves access to beautiful, 
-                      high-quality fragrances at fair prices.
+                      We use high-quality oils and ingredients. We're upfront about what we are—inspired fragrances, 
+                      not designer originals—and we're proud of that.
                     </p>
                   </div>
                   <div className="p-6 border rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2 text-foreground">Transparency</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-foreground">Try Before You Commit</h3>
                     <p>
-                      We're honest about our inspirations and our process. What you see is what you get—no 
-                      hidden fees, no false promises.
+                      That's why we offer 2ml testers for $5. Test it, love it, then go bigger. No regrets, 
+                      no wasted money on full bottles you'll never wear.
                     </p>
                   </div>
                   <div className="p-6 border rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2 text-foreground">Sustainability</h3>
+                    <h3 className="text-xl font-semibold mb-2 text-foreground">Direct to You</h3>
                     <p>
-                      From ethically sourced ingredients to our Vault collection of pre-loved fragrances, 
-                      we're committed to sustainable practices.
+                      No fancy storefronts, no celebrity endorsements, no inflated markups. Just great fragrances 
+                      shipped straight to your door.
                     </p>
                   </div>
                 </div>
+              </div>
+
+              <div className="mt-12 p-8 bg-gradient-to-br from-primary/10 to-accent/20 rounded-lg text-center">
+                <h2 className="text-2xl font-bold mb-4 text-foreground">Join the Anbaréa Community</h2>
+                <p className="text-lg leading-relaxed mb-6">
+                  We're more than a fragrance brand—we're a community of scent lovers who refuse to pay luxury 
+                  prices for everyday luxury. Whether you're new to fragrances or a seasoned collector, you belong here.
+                </p>
+                <a 
+                  href="/shop" 
+                  className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
+                >
+                  Explore Our Scents
+                </a>
               </div>
             </div>
           </div>
