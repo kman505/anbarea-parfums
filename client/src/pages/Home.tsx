@@ -114,6 +114,22 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Coming Soon Teaser */}
+        <section className="py-16 md:py-24 bg-gradient-to-br from-primary/5 to-accent/20">
+          <div className="container text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Coming Soon</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
+              New luxury-inspired fragrances launching soon. From radiant roses to bold fusions, 
+              discover what's next in the Anbaréa collection.
+            </p>
+            <Link href="/coming-soon">
+              <Button size="lg" variant="outline">
+                Preview Upcoming Scents
+              </Button>
+            </Link>
+          </div>
+        </section>
+
         {/* Collections Preview */}
         <section className="py-16 md:py-24">
           <div className="container">

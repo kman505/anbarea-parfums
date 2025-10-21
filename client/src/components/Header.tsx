@@ -23,6 +23,11 @@ export default function Header() {
               Shop
             </a>
           </Link>
+          <Link href="/coming-soon">
+            <a className="transition-colors hover:text-foreground/80 text-foreground">
+              Coming Soon
+            </a>
+          </Link>
           <Link href="/about">
             <a className="transition-colors hover:text-foreground/80 text-foreground">
               About
