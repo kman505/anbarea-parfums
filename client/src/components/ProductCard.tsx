@@ -12,14 +12,10 @@ export default function ProductCard({ product }: ProductCardProps) {
   
   return (
     <Card className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
-      <div className="aspect-square overflow-hidden bg-accent">
-        <img 
-          src={product.image} 
-          alt={product.name}
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-          loading="lazy"
-        />
-      </div>
+      <div 
+        className="aspect-square overflow-hidden"
+        style={{ background: product.image }}
+      />
       <CardHeader>
         <CardTitle className="text-xl">{product.name}</CardTitle>
         {product.inspiredBy && (

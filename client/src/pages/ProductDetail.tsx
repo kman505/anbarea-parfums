@@ -47,13 +47,10 @@ export default function ProductDetail() {
           </Link>
 
           <div className="grid md:grid-cols-2 gap-12">
-            <div className="aspect-square overflow-hidden rounded-lg bg-accent">
-              <img 
-                src={product.image} 
-                alt={product.name}
-                className="w-full h-full object-cover"
-              />
-            </div>
+            <div 
+              className="aspect-square overflow-hidden rounded-lg"
+              style={{ background: product.image }}
+            />
 
             <div className="space-y-6">
               <div>

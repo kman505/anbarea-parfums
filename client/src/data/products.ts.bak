@@ -35,7 +35,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#D4A574',
+    image: 'linear-gradient(135deg, #D4A574 0%, #8B4513 100%)',
     inStock: true
   },
   {
@@ -54,7 +54,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#CD853F',
+    image: 'linear-gradient(135deg, #C0C0C0 0%, #4A4A4A 100%)',
     inStock: true
   },
   {
@@ -72,7 +72,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#FFB6C1',
+    image: 'linear-gradient(135deg, #FFB6C1 0%, #FFF5E1 100%)',
     inStock: true
   },
   {
@@ -90,7 +90,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#A8E6A1',
+    image: 'linear-gradient(135deg, #A8E6A1 0%, #E8F5E9 100%)',
     inStock: true
   },
   {
@@ -108,7 +108,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#FFFAF0',
+    image: 'linear-gradient(135deg, #FFFAF0 0%, #F5E6D3 100%)',
     inStock: true
   },
   {
@@ -127,7 +127,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#C19A6B',
+    image: 'linear-gradient(135deg, #C19A6B 0%, #654321 100%)',
     inStock: true
   },
   {
@@ -146,7 +146,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#C0C0C0',
+    image: 'linear-gradient(135deg, #87CEEB 0%, #4682B4 100%)',
     inStock: true
   },
   {
@@ -165,7 +165,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80',
+    image: 'linear-gradient(135deg, #DC143C 0%, #FFD700 100%)',
     inStock: true
   },
   {
@@ -184,7 +184,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1587049352846-4a222e784422?auto=format&fit=crop&w=800&q=80',
+    image: 'linear-gradient(135deg, #FFF8DC 0%, #FFE4E1 100%)',
     inStock: true
   },
   {
@@ -202,8 +202,8 @@ export const products: Product[] = [
       { size: '2ml Tester', price: 5.00 },
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
-    ],
-    image: 'https://images.unsplash.com/photo-1505944357793-0e7a5b2d3a4e?auto=format&fit=crop&w=800&q=80',
+    },
+    image: 'linear-gradient(135deg, #FFD700 0%, #DAA520 100%)',
     inStock: true
   },
   {
@@ -222,7 +222,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#DDA0DD',
+    image: 'linear-gradient(135deg, #9370DB 0%, #E6E6FA 100%)',
     inStock: true
   },
   {
@@ -241,7 +241,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=80',
+    image: 'linear-gradient(135deg, #CD853F 0%, #8B4513 100%)',
     inStock: true
   },
   {
@@ -260,7 +260,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80',
+    image: 'linear-gradient(135deg, #DDA0DD 0%, #FFF0F5 100%)',
     inStock: true
   },
   {
@@ -279,7 +279,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80',
+    image: 'linear-gradient(135deg, #8B4513 0%, #FFB6C1 100%)',
     inStock: true
   },
   
@@ -293,7 +293,7 @@ export const products: Product[] = [
     prices: [
       { size: '10ml Roller', price: 18.00 }
     ],
-    image: '#D4A574',
+    image: 'linear-gradient(135deg, #D4A574 0%, #8B4513 100%)',
     inStock: true
   },
   {
@@ -305,7 +305,7 @@ export const products: Product[] = [
     prices: [
       { size: '10ml Roller', price: 18.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80',
+    image: 'linear-gradient(135deg, #DC143C 0%, #FFD700 100%)',
     inStock: true
   },
   {
@@ -317,7 +317,7 @@ export const products: Product[] = [
     prices: [
       { size: '10ml Roller', price: 18.00 }
     ],
-    image: '#C19A6B',
+    image: 'linear-gradient(135deg, #C19A6B 0%, #654321 100%)',
     inStock: true
   },
   {
@@ -328,7 +328,7 @@ export const products: Product[] = [
     prices: [
       { size: '10ml Roller', price: 18.00 }
     ],
-    image: '#FFB6C1',
+    image: 'linear-gradient(135deg, #FFB6C1 0%, #FFF5E1 100%)',
     inStock: true
   },
   {
@@ -339,7 +339,7 @@ export const products: Product[] = [
     prices: [
       { size: '10ml Roller', price: 18.00 }
     ],
-    image: '#FFFAF0',
+    image: 'linear-gradient(135deg, #FFFAF0 0%, #F5E6D3 100%)',
     inStock: true
   },
   {
@@ -351,7 +351,7 @@ export const products: Product[] = [
     prices: [
       { size: '10ml Roller', price: 18.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80',
+    image: 'linear-gradient(135deg, #8B4513 0%, #FFB6C1 100%)',
     inStock: true
   }
 ];
