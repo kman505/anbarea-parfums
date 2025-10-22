@@ -35,7 +35,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#D4A574',
+    image: '/cognac-haze.jpg',
     inStock: true
   },
   {
@@ -54,7 +54,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#CD853F',
+    image: '/ashen-wood.jpg',
     inStock: true
   },
   {
@@ -72,7 +72,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#FFB6C1',
+    image: '/vanilla-cherry-glow.jpg',
     inStock: true
   },
   {
@@ -90,7 +90,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#A8E6A1',
+    image: '/fresh-apple-musks.jpg',
     inStock: true
   },
   {
@@ -108,7 +108,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#FFFAF0',
+    image: '/milky-dream.jpg',
     inStock: true
   },
   {
@@ -127,7 +127,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#C19A6B',
+    image: '/santal-mystique.jpg',
     inStock: true
   },
   {
@@ -146,7 +146,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#C0C0C0',
+    image: '/azure-amulet.jpg',
     inStock: true
   },
   {
@@ -165,7 +165,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=800&q=80',
+    image: '/crimson-crystal.jpg',
     inStock: true
   },
   {
@@ -184,7 +184,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1587049352846-4a222e784422?auto=format&fit=crop&w=800&q=80',
+    image: '/sugar-veil.jpg',
     inStock: true
   },
   {
@@ -203,7 +203,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1505944357793-0e7a5b2d3a4e?auto=format&fit=crop&w=800&q=80',
+    image: '/golden-essence.jpg',
     inStock: true
   },
   {
@@ -222,7 +222,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: '#DDA0DD',
+    image: '/violet-velvet.jpg',
     inStock: true
   },
   {
@@ -241,7 +241,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=80',
+    image: '/arabian-ember.jpg',
     inStock: true
   },
   {
@@ -260,7 +260,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80',
+    image: '/orchid-reverie.jpg',
     inStock: true
   },
   {
@@ -279,7 +279,7 @@ export const products: Product[] = [
       { size: '30ml', price: 69.00 },
       { size: '50ml', price: 99.00 }
     ],
-    image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80',
+    image: '/oud-lumiere.jpg',
     inStock: true
   },
   
