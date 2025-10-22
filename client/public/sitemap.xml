@@ -31,22 +31,10 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://anbarea-parfums.com/product/amber-no-5</loc>
+    <loc>https://anbarea-parfums.com/disclaimer</loc>
     <lastmod>2025-10-21</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://anbarea-parfums.com/product/oud-royale</loc>
-    <lastmod>2025-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://anbarea-parfums.com/product/jasmin-lumiere</loc>
-    <lastmod>2025-10-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://anbarea-parfums.com/product/cognac-haze</loc>
