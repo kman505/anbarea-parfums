@@ -64,8 +64,8 @@ export default function About() {
                 <h2 className="text-2xl font-bold mb-4 text-foreground">Why "Anbaréa"?</h2>
                 <p className="text-lg leading-relaxed">
                   The name comes from "amber"—one of the most beloved notes in perfumery, warm and timeless. 
-                  The French-inspired spelling with the accent (é) adds a touch of elegance. It's a reminder that 
-                  sophistication doesn't have to be expensive—it's about how something makes you feel.
+                  I added the accent (é) because, honestly, it looked cooler and gave the brand a bit of personality. 
+                  Plus, if you're going to sell fragrances, why not have a little fun with the name?
                 </p>
               </div>
 
