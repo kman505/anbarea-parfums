@@ -6,125 +6,94 @@ export default function About() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="About Us | Anbaréa"
-        description="Learn about Anbaréa - our mission to make luxury fragrances accessible to everyone through inspired scents and ethical practices."
+        title="Our Story | Anbaréa"
+        description="Discover the story behind Anbaréa - a personal journey of scent, memory, and the art of fragrance layering."
       />
       <Header />
       
       <main className="flex-1">
         <section className="py-16 md:py-24">
           <div className="container max-w-4xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center">Our Story</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center font-serif">The Art of Scent</h1>
             
-            <div className="prose prose-lg max-w-none space-y-6 text-muted-foreground">
-              <p className="text-lg leading-relaxed">
-                It started with a question: Why should a bottle of perfume cost more than a week's groceries?
+            <div className="prose prose-lg max-w-none space-y-8 text-muted-foreground">
+              <p className="text-xl leading-relaxed font-medium text-foreground text-center italic">
+                "Perfume is not just a smell. It's a memory, a mood, a silent language that speaks before you say a word."
               </p>
 
-              <p className="text-lg leading-relaxed">
-                Like many fragrance enthusiasts, I fell in love with scents I couldn't afford to wear every day. 
-                I'd spray testers at department stores, watch YouTube reviews, and dream about owning a full bottle 
-                of Baccarat Rouge or Creed Aventus. But at $300+ per bottle, it felt impossible.
-              </p>
-
-              <p className="text-lg leading-relaxed">
-                Then I discovered the world of fragrance dupes and inspired perfumes. I tried dozens—some were 
-                terrible, but a few were surprisingly close to the originals. That's when it clicked: <strong className="text-foreground">what 
-                if I could create my own?</strong>
-              </p>
-
-              <div className="my-12 rounded-lg overflow-hidden">
+              <div className="my-12 rounded-lg overflow-hidden shadow-xl">
                 <img 
                   src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1200&q=80"
-                  alt="Perfume creation process"
+                  alt="The art of perfumery"
                   className="w-full h-96 object-cover"
                 />
               </div>
 
+              <h2 className="text-3xl font-bold text-foreground mt-12">A Personal Journey</h2>
+              
               <p className="text-lg leading-relaxed">
-                I started small—mixing oils in my kitchen, testing on friends, tweaking formulas until they felt 
-                just right. Some were disasters (sorry to everyone who smelled my early attempts at oud). But slowly, 
-                I learned what worked: high-quality fragrance oils, the right concentrations, and patience.
+                My obsession with fragrance began long before Anbaréa existed. I was the person who would stop strangers to ask what they were wearing. I spent hours in department stores, spraying testers on every inch of my arms, closing my eyes, and letting the scents transport me.
               </p>
 
               <p className="text-lg leading-relaxed">
-                Anbaréa grew from those kitchen experiments. Today, we partner with experienced perfumers 
-                and use premium ingredients to create fragrances inspired by the scents we all love—but at prices 
-                that don't require a second mortgage.
+                To me, fragrance has always been emotional. A whiff of vanilla takes me back to baking in my grandmother's kitchen. The sharp scent of oud reminds me of travel and mystery. I realized that my perfume collection wasn't just bottles on a vanity—it was my wardrobe of feelings.
               </p>
 
               <p className="text-lg leading-relaxed">
-                We're not trying to fool anyone. Our bottles don't pretend to be Chanel or Dior. We're honest about 
-                what we are: <strong className="text-foreground">affordable alternatives that let you enjoy luxury scents without the luxury price tag</strong>. 
-                Whether you're building your collection, trying a scent before investing in the original, or just 
-                want a great-smelling fragrance that doesn't break the bank—we're here for you.
+                But as my passion grew, so did the frustration. The fragrances that truly moved me—the complex, rich, long-lasting ones—were often locked behind impossible price tags. I wanted to layer scents, to experiment, to wear a different mood every day, but luxury pricing made that a rare indulgence rather than a daily joy.
               </p>
 
-              <div className="mt-12 p-8 bg-accent/20 rounded-lg">
-                <h2 className="text-2xl font-bold mb-4 text-foreground">Why "Anbaréa"?</h2>
-                <p className="text-lg leading-relaxed">
-                  The name comes from "amber"—one of the most beloved notes in perfumery, warm and timeless. 
-                  I added the accent (é) because, honestly, it looked cooler and gave the brand a bit of personality. 
-                  Plus, if you're going to sell fragrances, why not have a little fun with the name?
-                </p>
-              </div>
+              <h2 className="text-3xl font-bold text-foreground mt-12">The Birth of Anbaréa</h2>
 
-              <div className="mt-12 p-6 bg-primary/5 border-l-4 border-primary rounded">
-                <h3 className="text-lg font-semibold mb-3 text-foreground">Important Legal Notice</h3>
-                <p className="text-sm leading-relaxed">
-                  Anbaréa is an independent fragrance company. We are <strong>not affiliated with, endorsed by, 
-                  or connected to</strong> any of the designer brands, perfume houses, or trademark owners mentioned on our website. 
-                  All brand names are used solely for comparison and descriptive purposes to help customers understand the scent 
-                  profile and inspiration behind our fragrances. Our products are original Anbaréa creations—not counterfeits, 
-                  copies, or imitations. <a href="/disclaimer" className="underline hover:text-foreground font-medium">Read our full legal disclaimer</a>.
-                </p>
-              </div>
+              <p className="text-lg leading-relaxed">
+                Anbaréa was born from a simple desire: to democratize the magic of scent. I started experimenting in my own home, blending oils, learning the chemistry of notes, and understanding how base notes anchor a fragrance while top notes let it sing.
+              </p>
 
-              <div className="mt-12">
-                <h2 className="text-2xl font-bold mb-6 text-foreground">What We Believe</h2>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="p-6 border rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2 text-foreground">Fragrance for Everyone</h3>
-                    <p>
-                      You shouldn't have to choose between smelling great and paying rent. Beautiful scents should 
-                      be accessible, not exclusive.
-                    </p>
-                  </div>
-                  <div className="p-6 border rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2 text-foreground">Honest Quality</h3>
-                    <p>
-                      We use high-quality oils and ingredients. We're upfront about what we are—inspired fragrances, 
-                      not designer originals—and we're proud of that.
-                    </p>
-                  </div>
-                  <div className="p-6 border rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2 text-foreground">Try Before You Commit</h3>
-                    <p>
-                      That's why we offer 2ml testers for $5. Test it, love it, then go bigger. No regrets, 
-                      no wasted money on full bottles you'll never wear.
-                    </p>
-                  </div>
-                  <div className="p-6 border rounded-lg">
-                    <h3 className="text-xl font-semibold mb-2 text-foreground">Direct to You</h3>
-                    <p>
-                      No fancy storefronts, no celebrity endorsements, no inflated markups. Just great fragrances 
-                      shipped straight to your door.
-                    </p>
-                  </div>
+              <p className="text-lg leading-relaxed">
+                I didn't just want to copy scents; I wanted to capture their <em>soul</em>. I wanted to create fragrances that felt rich, deep, and expensive, but were accessible enough that you could spray them liberally, layer them fearlessly, and live in them fully.
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-8 my-12">
+                <div className="bg-accent/10 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold text-foreground mb-4">The Power of Layering</h3>
+                  <p>
+                    Like Mona Kattan, I believe fragrance is personal. Don't be afraid to mix! Try layering <em>Vanilla Cherry Glow</em> over <em>Cognac Haze</em> for a warm, boozy sweetness. Or add <em>Ashen Wood</em> to anything to give it a smoky, mysterious depth. Make the scent your own.
+                  </p>
+                </div>
+                <div className="bg-accent/10 p-8 rounded-xl">
+                  <h3 className="text-xl font-bold text-foreground mb-4">Why "Anbaréa"?</h3>
+                  <p>
+                    The name is rooted in "Amber"—the golden, warm heart of perfumery. It represents timelessness, warmth, and the glow that a beautiful scent leaves on your skin. It's an invitation to find your own glow.
+                  </p>
                 </div>
               </div>
 
-              <div className="mt-12 p-8 bg-gradient-to-br from-primary/10 to-accent/20 rounded-lg text-center">
-                <h2 className="text-2xl font-bold mb-4 text-foreground">Join the Anbaréa Community</h2>
-                <p className="text-lg leading-relaxed mb-6">
-                  We're more than a fragrance brand—we're a community of scent lovers who refuse to pay luxury 
-                  prices for everyday luxury. Whether you're new to fragrances or a seasoned collector, you belong here.
+              <h2 className="text-3xl font-bold text-foreground mt-12">My Promise to You</h2>
+
+              <p className="text-lg leading-relaxed">
+                Anbaréa is my love letter to fragrance. Every bottle is an invitation to explore, to play, and to feel beautiful. We are honest about who we are: an independent house creating inspired interpretations of the world's most beautiful scents.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                We strip away the celebrity endorsements and crystal bottles to focus on what matters: the juice inside. The quality. The longevity. The feeling.
+              </p>
+
+              <div className="mt-12 p-6 bg-primary/5 border-l-4 border-primary rounded">
+                <h3 className="text-lg font-semibold mb-3 text-foreground">A Note on Authenticity</h3>
+                <p className="text-sm leading-relaxed">
+                  Anbaréa is an independent fragrance house. We are <strong>not affiliated with</strong> any of the designer brands mentioned on our site. We use their names only to help you understand the scent profile of our original creations. We are proud to offer high-quality alternatives that stand on their own merit. <a href="/disclaimer" className="underline hover:text-foreground font-medium">Read our full disclaimer</a>.
+                </p>
+              </div>
+
+              <div className="mt-16 text-center">
+                <p className="text-2xl font-serif italic text-foreground mb-8">
+                  "Wear your fragrance like an invisible crown."
                 </p>
                 <a 
                   href="/shop" 
-                  className="inline-block px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:opacity-90 transition-opacity"
+                  className="inline-block px-10 py-4 bg-primary text-primary-foreground rounded-full font-semibold text-lg hover:opacity-90 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
-                  Explore Our Scents
+                  Start Your Scent Journey
                 </a>
               </div>
             </div>
@@ -136,4 +105,3 @@ export default function About() {
     </div>
   );
 }
-
