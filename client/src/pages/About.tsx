@@ -18,7 +18,7 @@ export default function About() {
             
             <div className="prose prose-lg max-w-none space-y-8 text-muted-foreground">
               <p className="text-xl leading-relaxed font-medium text-foreground text-center italic">
-                "Perfume is not just a smell. It's a memory, a mood, a silent language that speaks before you say a word."
+                "Perfume is not just a smell. It is memory. Mood. A silent language that speaks before you ever do."
               </p>
 
               <div className="my-12 rounded-lg overflow-hidden shadow-xl">
@@ -32,38 +32,68 @@ export default function About() {
               <h2 className="text-3xl font-bold text-foreground mt-12">A Personal Journey</h2>
               
               <p className="text-lg leading-relaxed">
-                My obsession with fragrance began long before Anbaréa existed. I was the person who would stop strangers to ask what they were wearing. I spent hours in department stores, spraying testers on every inch of my arms, closing my eyes, and letting the scents transport me.
+                My relationship with fragrance began long before Anbaréa had a name.
               </p>
 
               <p className="text-lg leading-relaxed">
-                To me, fragrance has always been emotional. A whiff of vanilla takes me back to baking in my grandmother's kitchen. The sharp scent of oud reminds me of travel and mystery. I realized that my perfume collection wasn't just bottles on a vanity—it was my wardrobe of feelings.
+                I was the person who stopped strangers on the street to ask what they were wearing. I spent hours in department stores, arms layered with testers, eyes closed, letting scent carry me elsewhere. To me, fragrance was never decorative—it was emotional. Transformative.
               </p>
 
               <p className="text-lg leading-relaxed">
-                But as my passion grew, so did the frustration. The fragrances that truly moved me—the complex, rich, long-lasting ones—were often locked behind impossible price tags. I wanted to layer scents, to experiment, to wear a different mood every day, but luxury pricing made that a rare indulgence rather than a daily joy.
+                A trace of vanilla could return me to baking in my grandmother’s kitchen. A dark ribbon of oud felt like mystery and movement, like distant places calling me back. Over time, I realized my collection wasn’t just bottles on a vanity—it was a wardrobe of feelings. Each scent held a moment. A version of myself.
+              </p>
+
+              <p className="text-lg leading-relaxed font-medium text-foreground">
+                But the first fragrance that ever truly stopped me didn’t come from a bottle. It came from Jerusalem.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                As a child, I wandered through cobblestone markets where the air itself felt alive—oud curling through sunlit alleys, bukhoor smoke rising from doorways, spices warming in the heat. It was overwhelming and grounding all at once. Sacred and human. That moment planted something deep within me, long before I had the language to name it.
+              </p>
+
+              <p className="text-lg leading-relaxed italic">
+                That memory became my north star.
               </p>
 
               <h2 className="text-3xl font-bold text-foreground mt-12">The Birth of Anbaréa</h2>
 
               <p className="text-lg leading-relaxed">
-                Anbaréa was born from a simple desire: to democratize the magic of scent. I started experimenting in my own home, blending oils, learning the chemistry of notes, and understanding how base notes anchor a fragrance while top notes let it sing.
+                As my love for fragrance deepened, so did my frustration. The scents that moved me most—the rich, complex, long-lasting ones—were often locked behind impossible price tags. Luxury felt distant. Precious. Untouchable.
               </p>
 
               <p className="text-lg leading-relaxed">
-                I didn't just want to copy scents; I wanted to capture their <em>soul</em>. I wanted to create fragrances that felt rich, deep, and expensive, but were accessible enough that you could spray them liberally, layer them fearlessly, and live in them fully.
+                I wanted fragrance to be lived in.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                So I began experimenting at home—blending oils, learning the chemistry of notes, understanding how base notes anchor a scent while top notes let it breathe and evolve. I didn’t want to copy perfumes. I wanted to capture their soul.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                Anbaréa was born from a simple but powerful desire: to create fragrances that feel deep, grounded, and expensive—without being exclusive. Scents you can spray generously, layer intuitively, and wear as part of your everyday ritual.
+              </p>
+
+              <p className="text-lg leading-relaxed font-medium text-foreground">
+                Fragrance shouldn’t whisper restraint. It should invite expression.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 my-12">
                 <div className="bg-accent/10 p-8 rounded-xl">
                   <h3 className="text-xl font-bold text-foreground mb-4">The Power of Layering</h3>
                   <p>
-                    Like Mona Kattan, I believe fragrance is personal. Don't be afraid to mix! Try layering <em>Vanilla Cherry Glow</em> over <em>Cognac Haze</em> for a warm, boozy sweetness. Or add <em>Ashen Wood</em> to anything to give it a smoky, mysterious depth. Make the scent your own.
+                    Fragrance is personal. It always has been. Like Mona Kattan, I believe scent is meant to be explored, mixed, and made your own. There are no rules—only instinct. Layer <em>Vanilla Cherry Glow</em> over <em>Cognac Haze</em> for warmth and indulgence. Add <em>Ashen Wood</em> to introduce a smoky, steady depth.
+                  </p>
+                  <p className="mt-4 italic">
+                    Your fragrance should move with you. Shift with your mood. Tell your story, not someone else’s.
                   </p>
                 </div>
                 <div className="bg-accent/10 p-8 rounded-xl">
                   <h3 className="text-xl font-bold text-foreground mb-4">Why "Anbaréa"?</h3>
                   <p>
-                    The name is rooted in "Amber"—the golden, warm heart of perfumery. It represents timelessness, warmth, and the glow that a beautiful scent leaves on your skin. It's an invitation to find your own glow.
+                    The name Anbaréa is rooted in amber—the golden heart of perfumery. Amber is warmth, depth, and glow. It lingers. It grounds. It holds memory the way skin holds heat.
+                  </p>
+                  <p className="mt-4">
+                    Anbaréa represents that quiet radiance—the confidence that doesn’t announce itself, but is felt. A return to something familiar. A glow that stays with you long after the moment passes.
                   </p>
                 </div>
               </div>
@@ -71,17 +101,25 @@ export default function About() {
               <h2 className="text-3xl font-bold text-foreground mt-12">My Promise to You</h2>
 
               <p className="text-lg leading-relaxed">
-                Anbaréa is my love letter to fragrance. Every bottle is an invitation to explore, to play, and to feel beautiful. We are honest about who we are: an independent house creating inspired interpretations of the world's most beautiful scents.
+                Anbaréa is my love letter to fragrance.
               </p>
 
               <p className="text-lg leading-relaxed">
-                We strip away the celebrity endorsements and crystal bottles to focus on what matters: the juice inside. The quality. The longevity. The feeling.
+                Every bottle is an invitation to explore, to play, and to feel deeply connected to what you wear. We are honest about who we are: an independent fragrance house creating inspired interpretations of the world’s most beautiful scent profiles.
+              </p>
+
+              <p className="text-lg leading-relaxed">
+                We strip away celebrity endorsements and crystal excess to focus on what truly matters—the juice. The quality. The longevity. The feeling.
+              </p>
+
+              <p className="text-lg leading-relaxed font-medium text-foreground">
+                Fragrance should be expressive, accessible, and intentional.
               </p>
 
               <div className="mt-12 p-6 bg-primary/5 border-l-4 border-primary rounded">
                 <h3 className="text-lg font-semibold mb-3 text-foreground">A Note on Authenticity</h3>
                 <p className="text-sm leading-relaxed">
-                  Anbaréa is an independent fragrance house. We are <strong>not affiliated with</strong> any of the designer brands mentioned on our site. We use their names only to help you understand the scent profile of our original creations. We are proud to offer high-quality alternatives that stand on their own merit. <a href="/disclaimer" className="underline hover:text-foreground font-medium">Read our full disclaimer</a>.
+                  Anbaréa is an independent fragrance house. We are <strong>not affiliated with</strong> any designer brands referenced on our site. Names are used solely to help describe scent profiles and olfactory families. Our creations are original interpretations, crafted to stand on their own merit. <a href="/disclaimer" className="underline hover:text-foreground font-medium">Read our full disclaimer</a>.
                 </p>
               </div>
 
