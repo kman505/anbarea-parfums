@@ -23,7 +23,7 @@ export const products: Product[] = [
     id: 'cognac-haze',
     name: 'Cognac Haze',
     category: 'signature',
-    description: 'Intoxicating warmth of cognac, oak, and tonka bean. A boozy, sophisticated embrace that lingers like a cherished memory.',
+    description: 'A dimly lit jazz club, the clink of crystal, and the warmth of aged spirits. Cognac Haze is an intoxicating embrace of oak, cinnamon, and praline that lingers on the skin like a cherished memory. Rich, boozy, and undeniably sophisticated.',
     inspiredBy: "Angel's Share by Kilian",
     notes: {
       top: ['Cognac', 'Cinnamon', 'Oak'],
@@ -42,7 +42,7 @@ export const products: Product[] = [
     id: 'ashen-wood',
     name: 'Ashen Wood',
     category: 'signature',
-    description: 'Smoky, silvery woods meet iris and musk. A mysterious, androgynous scent that captivates with its quiet power.',
+    description: 'Silvery moonlight filtering through ancient trees. Ashen Wood is a mysterious, androgynous masterpiece where cool iris meets the smoky warmth of incense. It whispers rather than shouts—a scent of quiet power and ethereal beauty.',
     inspiredBy: 'Bois d\'Argent / Bois Talisman',
     notes: {
       top: ['Cypress', 'Juniper', 'Iris'],
@@ -61,7 +61,7 @@ export const products: Product[] = [
     id: 'vanilla-cherry-glow',
     name: 'Vanilla Cherry Glow',
     category: 'signature',
-    description: 'Sweet cherry and creamy vanilla create a warm, radiant aura. Playful yet sophisticated, like sunset in a bottle.',
+    description: 'Sunset in a bottle. The playful brightness of black cherry melts into a creamy, radiant vanilla heart. It’s warm, inviting, and effortlessly chic—a fragrance that feels like the golden hour on your skin.',
     notes: {
       top: ['Black Cherry', 'Almond', 'Pink Pepper'],
       heart: ['Turkish Rose', 'Jasmine Sambac'],
@@ -79,7 +79,7 @@ export const products: Product[] = [
     id: 'fresh-apple-musks',
     name: 'Fresh Apple Musks',
     category: 'signature',
-    description: 'Crisp green apple meets soft, clean musk. Refreshing and modern, perfect for everyday elegance.',
+    description: 'The first bite of a crisp green apple on a spring morning. Clean, modern, and revitalizing, this scent blends sparkling fruit notes with a soft, skin-like musk. Pure everyday elegance that feels like a fresh start.',
     notes: {
       top: ['Green Apple', 'Pear', 'Bergamot'],
       heart: ['White Flowers', 'Peony', 'Freesia'],
@@ -97,7 +97,7 @@ export const products: Product[] = [
     id: 'milky-dream',
     name: 'Milky Dream',
     category: 'signature',
-    description: 'Soft, creamy sandalwood and white florals create a dreamy, comforting cloud. Like cashmere on skin.',
+    description: 'A comforting cloud of creamy sandalwood and whipped almond milk. Milky Dream is soft, intimate, and wraps you in a cocoon of calm. Like cashmere against bare skin, it’s a scent of pure serenity.',
     notes: {
       top: ['Almond Milk', 'Fig', 'Mandarin'],
       heart: ['Coconut', 'Jasmine', 'Heliotrope'],
@@ -115,7 +115,7 @@ export const products: Product[] = [
     id: 'santal-mystique',
     name: 'Santal Mystique',
     category: 'signature',
-    description: 'A smoky, woody embrace of sandalwood, leather, and cardamom. Mysterious and addictive, with an unforgettable trail.',
+    description: 'The allure of the open road and worn leather jackets. Santal Mystique is a cult classic reimagined—a smoky, woody embrace of sandalwood, cardamom, and violet. Addictive, unisex, and unforgettable.',
     inspiredBy: 'Le Labo Santal 33',
     notes: {
       top: ['Cardamom', 'Iris', 'Violet'],
@@ -134,7 +134,7 @@ export const products: Product[] = [
     id: 'azure-amulet',
     name: 'Azure Amulet',
     category: 'signature',
-    description: 'A mystical blend of blue notes, woods, and ethereal florals. Like a talisman of sky and sea.',
+    description: 'A talisman of protection and luck. Azure Amulet captures the infinite blue of the sky meeting the sea. Ethereal pear and bergamot float over a grounding woody base, creating a scent that feels both mystical and modern.',
     inspiredBy: 'Ex Nihilo Blue Talisman',
     notes: {
       top: ['Lavender', 'Mint', 'Bergamot'],
@@ -153,7 +153,7 @@ export const products: Product[] = [
     id: 'crimson-crystal',
     name: 'Crimson Crystal',
     category: 'signature',
-    description: 'Radiant saffron and amber wood in crystalline brilliance. A luminous, unforgettable signature scent.',
+    description: 'Alchemy in a bottle. Crimson Crystal is a radiant paradox—transparent yet dense, airy yet intense. Saffron and jasmine dance over a base of warm ambergris, creating a luminous trail that turns heads wherever you go.',
     inspiredBy: 'Baccarat Rouge 540',
     notes: {
       top: ['Saffron', 'Jasmine'],
@@ -172,7 +172,7 @@ export const products: Product[] = [
     id: 'sugar-veil',
     name: 'Sugar Veil',
     category: 'signature',
-    description: 'Delicate vanilla sweetness wrapped in sparkling sugar crystals. Playful, gourmand, irresistibly charming.',
+    description: 'Pure, unadulterated joy. Sugar Veil is a playful gourmand delight where sparkling sugar crystals meet fluffy marshmallow and vanilla bean. It’s sweet, nostalgic, and irresistibly charming—a treat for the senses.',
     inspiredBy: 'Kayali Vanilla Candy Rock Sugar',
     notes: {
       top: ['Sugar', 'Bergamot', 'Pear'],
@@ -191,7 +191,7 @@ export const products: Product[] = [
     id: 'golden-essence',
     name: 'Golden Essence',
     category: 'signature',
-    description: 'Warm, ambery fluidity with vanilla and musk. Liquid gold that adapts to your skin, creating a unique signature.',
+    description: 'Liquid gold that moves with you. Golden Essence is a celebration of fluidity—warm vanilla and amber melting into spicy nutmeg and coriander. It adapts to your skin chemistry, creating a signature glow that is uniquely yours.',
     inspiredBy: 'MFK Gentle Fluidity Gold',
     notes: {
       top: ['Coriander', 'Nutmeg'],
@@ -210,7 +210,7 @@ export const products: Product[] = [
     id: 'violet-velvet',
     name: 'Violet Velvet',
     category: 'signature',
-    description: 'Deep purple florals entwined with creamy vanilla. Luxurious and velvety, like amethyst in liquid form.',
+    description: 'A midnight garden in full bloom. Violet Velvet pairs the deep, powdery elegance of violet and iris with a rich vanilla base. Luxurious, dark, and velvety smooth—like draping yourself in purple silk.',
     inspiredBy: 'Amethyst & Vanilla',
     notes: {
       top: ['Violet', 'Blackcurrant', 'Bergamot'],
@@ -229,7 +229,7 @@ export const products: Product[] = [
     id: 'arabian-ember',
     name: 'Arabian Ember',
     category: 'signature',
-    description: 'Rich tonka bean and vanilla from the heart of Arabia. Warm, exotic, and deeply comforting.',
+    description: 'The heat of the desert night. Arabian Ember is a passionate blend of spicy saffron, rich tonka bean, and dark oud. It burns with a quiet intensity—warm, exotic, and deeply comforting.',
     inspiredBy: 'Montale Arabians Tonka',
     notes: {
       top: ['Saffron', 'Bergamot', 'Orange'],
@@ -248,7 +248,7 @@ export const products: Product[] = [
     id: 'orchid-reverie',
     name: 'Orchid Reverie',
     category: 'signature',
-    description: 'Sweet orchid and vanilla with an unexpected citrus spark. A dreamy twist on a beloved classic.',
+    description: 'A daydream in pink. Orchid Reverie takes the beloved creamy sweetness of vanilla orchid and adds a surprising spark of bright tangerine. It’s fluffy, feminine, and utterly dreamy.',
     inspiredBy: 'Yara by Lattafa (with special twist)',
     notes: {
       top: ['Mandarin', 'Heliotrope', 'Tangerine'],
@@ -267,7 +267,7 @@ export const products: Product[] = [
     id: 'oud-lumiere',
     name: 'Oud Lumière',
     category: 'signature',
-    description: 'Luminous oud with rose and labdanum, a Persian treasure. Opulent yet refined, a true masterpiece.',
+    description: 'A palace of rose and gold. Oud Lumière is an opulent masterpiece where the animalic depth of oud is tamed by the luminous beauty of damask rose. Regal, sophisticated, and breathtakingly grand.',
     inspiredBy: 'Dior Oud Isphahan',
     notes: {
       top: ['Labdanum', 'Rose'],
@@ -288,7 +288,7 @@ export const products: Product[] = [
     id: 'cognac-haze-roller',
     name: 'Cognac Haze Oil Roller',
     category: 'roller',
-    description: 'Our bestselling Cognac Haze in a convenient 10ml oil roller. Boozy warmth on the go.',
+    description: 'The intoxicating warmth of Cognac Haze, concentrated in a travel-friendly oil. Perfect for pulse points.',
     inspiredBy: "Angel's Share by Kilian",
     prices: [
       { size: '10ml Roller', price: 18.00 }
@@ -300,7 +300,7 @@ export const products: Product[] = [
     id: 'crimson-crystal-roller',
     name: 'Crimson Crystal Oil Roller',
     category: 'roller',
-    description: 'The iconic Crimson Crystal in portable oil roller format. Radiance wherever you go.',
+    description: 'The radiant alchemy of Crimson Crystal in a potent oil format. A touch of luxury anywhere you go.',
     inspiredBy: 'Baccarat Rouge 540',
     prices: [
       { size: '10ml Roller', price: 18.00 }
@@ -312,7 +312,7 @@ export const products: Product[] = [
     id: 'santal-mystique-roller',
     name: 'Santal Mystique Oil Roller',
     category: 'roller',
-    description: 'Smoky sandalwood and leather in a travel-friendly 10ml roller. Mystery in your pocket.',
+    description: 'The cult classic woody scent in a deeply moisturizing oil base. Intimate and long-lasting.',
     inspiredBy: 'Le Labo Santal 33',
     prices: [
       { size: '10ml Roller', price: 18.00 }
@@ -324,7 +324,7 @@ export const products: Product[] = [
     id: 'vanilla-cherry-glow-roller',
     name: 'Vanilla Cherry Glow Oil Roller',
     category: 'roller',
-    description: 'Sweet cherry and vanilla warmth in portable format. Perfect for touch-ups throughout the day.',
+    description: 'A pocket-sized sunset. Sweet cherry and vanilla oil that melts into the skin for a warm, radiant glow.',
     prices: [
       { size: '10ml Roller', price: 18.00 }
     ],
@@ -335,7 +335,7 @@ export const products: Product[] = [
     id: 'milky-dream-roller',
     name: 'Milky Dream Oil Roller',
     category: 'roller',
-    description: 'Creamy sandalwood comfort in a 10ml roller. Dreamy softness on the go.',
+    description: 'Pure comfort in a roller. Creamy sandalwood and almond milk oil for moments when you need serenity.',
     prices: [
       { size: '10ml Roller', price: 18.00 }
     ],
@@ -346,7 +346,7 @@ export const products: Product[] = [
     id: 'oud-lumiere-roller',
     name: 'Oud Lumière Oil Roller',
     category: 'roller',
-    description: 'Luminous oud and rose in travel-friendly format. Persian luxury wherever you roam.',
+    description: 'Opulence in your pocket. The regal blend of oud and rose in a concentrated oil for intense longevity.',
     inspiredBy: 'Dior Oud Isphahan',
     prices: [
       { size: '10ml Roller', price: 18.00 }
@@ -363,4 +363,3 @@ export const getProductsByCategory = (category: Product['category']) => {
 export const getProductById = (id: string) => {
   return products.find(p => p.id === id);
 };
-
