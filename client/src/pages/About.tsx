@@ -6,8 +6,8 @@ export default function About() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="About Us | Anbaréa Parfums"
-        description="Learn about Anbaréa Parfums - our mission to make luxury fragrances accessible to everyone through inspired scents and ethical practices."
+        title="About Us | Anbaréa"
+        description="Learn about Anbaréa - our mission to make luxury fragrances accessible to everyone through inspired scents and ethical practices."
       />
       <Header />
       
@@ -48,7 +48,7 @@ export default function About() {
               </p>
 
               <p className="text-lg leading-relaxed">
-                Anbaréa Parfums grew from those kitchen experiments. Today, we partner with experienced perfumers 
+                Anbaréa grew from those kitchen experiments. Today, we partner with experienced perfumers 
                 and use premium ingredients to create fragrances inspired by the scents we all love—but at prices 
                 that don't require a second mortgage.
               </p>
@@ -72,10 +72,10 @@ export default function About() {
               <div className="mt-12 p-6 bg-primary/5 border-l-4 border-primary rounded">
                 <h3 className="text-lg font-semibold mb-3 text-foreground">Important Legal Notice</h3>
                 <p className="text-sm leading-relaxed">
-                  Anbaréa Parfums is an independent fragrance company. We are <strong>not affiliated with, endorsed by, 
+                  Anbaréa is an independent fragrance company. We are <strong>not affiliated with, endorsed by, 
                   or connected to</strong> any of the designer brands, perfume houses, or trademark owners mentioned on our website. 
                   All brand names are used solely for comparison and descriptive purposes to help customers understand the scent 
-                  profile and inspiration behind our fragrances. Our products are original Anbaréa Parfums creations—not counterfeits, 
+                  profile and inspiration behind our fragrances. Our products are original Anbaréa creations—not counterfeits, 
                   copies, or imitations. <a href="/disclaimer" className="underline hover:text-foreground font-medium">Read our full legal disclaimer</a>.
                 </p>
               </div>

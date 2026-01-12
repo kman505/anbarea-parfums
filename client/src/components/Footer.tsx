@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container py-8 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-3">
-            <h3 className="text-lg font-semibold">Anbaréa Parfums</h3>
+            <h3 className="text-lg font-semibold">Anbaréa</h3>
             <p className="text-sm text-muted-foreground">
               Inspired scents. Unforgettable experiences.
             </p>
@@ -41,10 +41,10 @@ export default function Footer() {
         
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground space-y-2">
           <p className="text-xs">
-            Anbaréa Parfums is an independent fragrance company. We are not affiliated with any designer brands. 
+            Anbaréa is an independent fragrance company. We are not affiliated with any designer brands. 
             All trademarks are property of their respective owners. <a href="/disclaimer" className="underline hover:text-foreground">Read full disclaimer</a>.
           </p>
-          <p>© {currentYear} Anbaréa Parfums. All rights reserved.</p>
+          <p>© {currentYear} Anbaréa. All rights reserved.</p>
         </div>
       </div>
     </footer>

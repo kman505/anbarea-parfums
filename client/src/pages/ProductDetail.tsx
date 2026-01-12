@@ -31,7 +31,7 @@ export default function ProductDetail() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title={`${product.name} | Anbaréa Parfums`}
+        title={`${product.name} | Anbaréa`}
         description={product.description}
         image={product.image}
       />
@@ -119,7 +119,7 @@ export default function ProductDetail() {
                 <div className="text-xs text-muted-foreground pt-4 border-t italic">
                   <p>
                     * This fragrance is inspired by {product.inspiredBy} but is not affiliated with or endorsed by the original brand. 
-                    Anbaréa Parfums is an independent fragrance company. <a href="/disclaimer" className="underline hover:text-foreground">Learn more</a>.
+                    Anbaréa is an independent fragrance company. <a href="/disclaimer" className="underline hover:text-foreground">Learn more</a>.
                   </p>
                 </div>
               )}

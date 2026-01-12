@@ -24,7 +24,7 @@ export default function Home() {
                 Inspired Scents.<br />Unforgettable Experiences.
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Discover luxury, reimagined. At Anbaréa Parfums, we believe fragrance is for everyone. 
+                Discover luxury, reimagined. At Anbaréa, we believe fragrance is for everyone. 
                 We recreate and reinterpret your favorite designer and niche perfumes, offering exceptional 
                 quality at accessible prices.
               </p>

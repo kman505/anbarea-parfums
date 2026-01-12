@@ -9,8 +9,8 @@ export default function ComingSoon() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Coming Soon | Anbaréa Parfums"
-        description="Discover upcoming fragrances from Anbaréa Parfums. New luxury-inspired scents launching soon."
+        title="Coming Soon | Anbaréa"
+        description="Discover upcoming fragrances from Anbaréa. New luxury-inspired scents launching soon."
       />
       <Header />
       

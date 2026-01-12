@@ -10,7 +10,7 @@ interface SEOProps {
 }
 
 export default function SEO({
-  title = 'Anbaréa Parfums | Inspired Scents. Unforgettable Experiences.',
+  title = 'Anbaréa | Inspired Scents. Unforgettable Experiences.',
   description = 'Shop inspired fragrances—designer perfume dupes and niche alternatives. Ethically sourced, affordable, unforgettable scents. Try a 2ml tester today!',
   keywords = 'fragrance, perfume dupes, designer alternatives, niche perfume, affordable scent, oil rollers, luxury fragrance, Anbarea Parfums',
   image = 'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1200&q=80',
@@ -63,7 +63,7 @@ export default function SEO({
     script.text = JSON.stringify({
       '@context': 'https://schema.org/',
       '@type': 'Store',
-      name: 'Anbaréa Parfums',
+      name: 'Anbaréa',
       url: url || 'https://anbarea-parfums.com',
       logo: image,
       description: description,
@@ -77,7 +77,7 @@ export default function SEO({
             name: 'Amber No. 5',
             image: 'https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=800&q=80',
             description: 'A radiant floral-aldehyde with classic elegance. Inspired by Chanel No. 5.',
-            brand: 'Anbaréa Parfums',
+            brand: 'Anbaréa',
             offers: {
               '@type': 'Offer',
               priceCurrency: 'USD',
@@ -90,7 +90,7 @@ export default function SEO({
             name: 'Oud Royale',
             image: 'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=800&q=80',
             description: 'A regal blend of oud, lemon, and spice. Inspired by Creed Royal Oud.',
-            brand: 'Anbaréa Parfums',
+            brand: 'Anbaréa',
             offers: {
               '@type': 'Offer',
               priceCurrency: 'USD',

@@ -41,8 +41,8 @@ export default function Contact() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Contact Us | Anbaréa Parfums"
-        description="Get in touch with Anbaréa Parfums. We're here to help with any questions about our fragrances."
+        title="Contact Us | Anbaréa"
+        description="Get in touch with Anbaréa. We're here to help with any questions about our fragrances."
       />
       <Header />
       

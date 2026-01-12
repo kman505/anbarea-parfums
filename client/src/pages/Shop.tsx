@@ -48,7 +48,7 @@ export default function Shop() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title={`${getCategoryTitle()} | Anbaréa Parfums`}
+        title={`${getCategoryTitle()} | Anbaréa`}
         description={getCategoryDescription()}
       />
       <Header />

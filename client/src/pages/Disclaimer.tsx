@@ -6,8 +6,8 @@ export default function Disclaimer() {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Legal Disclaimer | Anbaréa Parfums"
-        description="Important legal information about Anbaréa Parfums and our inspired fragrances."
+        title="Legal Disclaimer | Anbaréa"
+        description="Important legal information about Anbaréa and our inspired fragrances."
       />
       <Header />
       
@@ -19,7 +19,7 @@ export default function Disclaimer() {
             <section className="p-6 bg-accent/20 border-l-4 border-primary rounded">
               <h2 className="text-2xl font-bold mb-4">Important Notice</h2>
               <p className="text-muted-foreground">
-                Anbaréa Parfums is an <strong>independent fragrance company</strong> and is <strong>not affiliated with, 
+                Anbaréa is an <strong>independent fragrance company</strong> and is <strong>not affiliated with, 
                 endorsed by, or connected to</strong> any of the designer brands, perfume houses, or trademark owners 
                 mentioned on this website.
               </p>
@@ -42,7 +42,7 @@ export default function Disclaimer() {
             <section>
               <h2 className="text-2xl font-bold mb-4">Our Fragrances</h2>
               <p>
-                Anbaréa Parfums creates <strong>original fragrance interpretations</strong> inspired by popular scents. 
+                Anbaréa creates <strong>original fragrance interpretations</strong> inspired by popular scents. 
                 Our products are:
               </p>
               <ul className="list-disc pl-6 space-y-2">
@@ -50,7 +50,7 @@ export default function Disclaimer() {
                 <li>Not counterfeits, copies, or imitations</li>
                 <li>Not original designer fragrances</li>
                 <li>Created with our own unique blends and concentrations</li>
-                <li>Sold under the Anbaréa Parfums brand name</li>
+                <li>Sold under the Anbaréa brand name</li>
               </ul>
             </section>
 
@@ -63,14 +63,14 @@ export default function Disclaimer() {
               </p>
               <p>
                 Our fragrances may share similar notes or olfactory families with the referenced scents, but they are 
-                <strong> distinct products</strong> created by Anbaréa Parfums.
+                <strong> distinct products</strong> created by Anbaréa.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4">No Affiliation</h2>
               <p>
-                Anbaréa Parfums is not:
+                Anbaréa is not:
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Affiliated with any designer brand or perfume house</li>
@@ -83,10 +83,10 @@ export default function Disclaimer() {
             <section>
               <h2 className="text-2xl font-bold mb-4">Quality & Authenticity</h2>
               <p>
-                All Anbaréa Parfums products are:
+                All Anbaréa products are:
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>100% authentic Anbaréa Parfums creations</li>
+                <li>100% authentic Anbaréa creations</li>
                 <li>Made with high-quality fragrance oils and ingredients</li>
                 <li>Ethically sourced and responsibly produced</li>
                 <li>Clearly labeled with our brand name and product information</li>
@@ -96,10 +96,10 @@ export default function Disclaimer() {
             <section>
               <h2 className="text-2xl font-bold mb-4">Customer Understanding</h2>
               <p>
-                By purchasing from Anbaréa Parfums, customers acknowledge and understand that:
+                By purchasing from Anbaréa, customers acknowledge and understand that:
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li>They are purchasing Anbaréa Parfums branded products</li>
+                <li>They are purchasing Anbaréa branded products</li>
                 <li>These are not original designer fragrances</li>
                 <li>Scent profiles may vary from the referenced inspirations</li>
                 <li>All sales are final for fragrance products due to hygiene regulations</li>
